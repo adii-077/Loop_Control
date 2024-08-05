@@ -15,6 +15,7 @@ public class CarGame {
             if (input.equals("start")){
                 if (i == 0){
                     System.out.println("The car is starting.");
+                    j = 0;
                 } else {
                     System.out.println("You can't start the same car twice.");
                 }
@@ -22,6 +23,7 @@ public class CarGame {
             } else if(input.equals("stop")){
                 if (j == 0){
                     System.out.println("The car is stopping.");
+                    i = 0;
                 } else {
                     System.out.println("You can't stop the same car twice.");
                 }
